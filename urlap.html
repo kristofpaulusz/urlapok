@@ -20,13 +20,59 @@
             </nav>
             <article>
                 <form>
-                    <label for="vname">Vezetéknév:</label><br />
-                    <input type="text" id="vname" name="vname" /><br />
-                    <label for="kname">Keresznév:</label><br />
-                    <input type="text" id="kname" name="kname" />
-                    
-                
-                    <input type="submit" value="OK">
+                    <label for="vname">Vezetéknév:</label>
+                    <input
+                        type="text"
+                        id="vname"
+                        name="vname"
+                        placeholder="Vezetéknév"
+                    />
+                    <label for="kname">Keresznév:</label>
+                    <input
+                        type="text"
+                        id="kname"
+                        name="kname"
+                        value="Keresztnév "
+                    />
+
+                    <fieldset id="fs">
+                        <legend>Neme</legend>
+                         
+                        <input
+                            type="radio"
+                            id="male"
+                            name="gender"
+                            value="male"
+                        />
+                          <label for="male">Férfi</label>
+                         
+                        <input
+                            type="radio"
+                            id="female"
+                            name="gender"
+                            value="female"
+                        />
+                          <label for="female">Nő</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Kedvenc Nyelv</legend>
+                        <input
+                            type="radio"
+                            id="html"
+                            name="fav_lang"
+                            value="html"
+                        />
+                          <label for="html">Html</label>
+                         
+                        <input
+                            type="radio"
+                            id="css"
+                            name="fav_lang"
+                            value="css"
+                        />
+                         <label for="css">Css</label>
+                    </fieldset>
+                    <input type="submit" value="OK" />
                 </form>
             </article>
             <footer>Footer</footer>

@@ -53,6 +53,11 @@ main {
     max-width: 800px; /*NEM LESZ ENNÉL NAGYOBB*/
     margin: auto; /*KÖZÉPRE*/
 }
+/*#fs {
+    display: grid;
+    grid-template-columns: 100px auto;
+}*/
+
 @media screen and (max-width: 600px) {
     main {
         background-color: red;
